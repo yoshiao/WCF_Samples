@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+Service="WCFServiceApp.Service1"  
+Factory="CustomLib.DebugServiceHostFactory, CustomLib"
+    
+    CodeBehind="Service1.svc.cs" %>

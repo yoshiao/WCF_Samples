@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceApp", "WCFServiceApp\WCFServiceApp.csproj", "{2743669D-DD63-4B0F-B956-4F5B65B804E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTestProject", "WCFTestProject\WCFTestProject.csproj", "{9741373C-A54B-47D3-A3F5-F71AD48641B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2743669D-DD63-4B0F-B956-4F5B65B804E5} = {2743669D-DD63-4B0F-B956-4F5B65B804E5}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE9E32F1-4FED-4238-BFA9-6293C3BED24D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ReadMe.txt = ReadMe.txt
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WCFServiceApp.vsmdi = WCFServiceApp.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WCFServiceApp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2743669D-DD63-4B0F-B956-4F5B65B804E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2743669D-DD63-4B0F-B956-4F5B65B804E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2743669D-DD63-4B0F-B956-4F5B65B804E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2743669D-DD63-4B0F-B956-4F5B65B804E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9741373C-A54B-47D3-A3F5-F71AD48641B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9741373C-A54B-47D3-A3F5-F71AD48641B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9741373C-A54B-47D3-A3F5-F71AD48641B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9741373C-A54B-47D3-A3F5-F71AD48641B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

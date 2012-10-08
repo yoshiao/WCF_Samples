@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceApp", "WCFServiceApp\WCFServiceApp.csproj", "{D5F9AD91-7FB6-4AF9-858F-FBE24D91924C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsClient", "WindowsClient\WindowsClient.csproj", "{E3D5DD97-558F-47E9-AE81-9D314E298392}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94B974DE-A548-4A5F-9A04-273576CC7FBF}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5F9AD91-7FB6-4AF9-858F-FBE24D91924C}.Debug|x86.ActiveCfg = Debug|x86
+		{D5F9AD91-7FB6-4AF9-858F-FBE24D91924C}.Debug|x86.Build.0 = Debug|x86
+		{D5F9AD91-7FB6-4AF9-858F-FBE24D91924C}.Release|x86.ActiveCfg = Release|x86
+		{D5F9AD91-7FB6-4AF9-858F-FBE24D91924C}.Release|x86.Build.0 = Release|x86
+		{E3D5DD97-558F-47E9-AE81-9D314E298392}.Debug|x86.ActiveCfg = Debug|x86
+		{E3D5DD97-558F-47E9-AE81-9D314E298392}.Debug|x86.Build.0 = Debug|x86
+		{E3D5DD97-558F-47E9-AE81-9D314E298392}.Release|x86.ActiveCfg = Release|x86
+		{E3D5DD97-558F-47E9-AE81-9D314E298392}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
